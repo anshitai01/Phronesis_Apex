@@ -368,7 +368,7 @@ col1, col2 = st.columns(2, gap="large")
 with col1:
     # Use a structure that matches the CSS selectors (.app-card, .card-title, etc.)
     app1_html = f"""
-    <a href="{http://192.168.1.56:8502}" target="_self" class="app-card-link" title="{APP1_DESC}">
+    <a href="http://192.168.1.56:8502" target="_self" class="app-card-link" title="{APP1_DESC}">
         <div class="app-card">
             <h2 class="card-title">{APP1_NAME}</h2>
             <p class="card-description">{APP1_DESC}</p>
@@ -382,7 +382,7 @@ with col1:
 with col2:
     # Use a structure that matches the CSS selectors (.app-card, .card-title, etc.)
     app2_html = f"""
-    <a href="{http://192.168.1.56:8501}" target="_self" class="app-card-link" title="{APP2_DESC}">
+    <a href="http://192.168.1.56:8501" target="_self" class="app-card-link" title="{APP2_DESC}">
         <div class="app-card">
             <h2 class="card-title">{APP2_NAME}</h2>
             <p class="card-description">{APP2_DESC}</p>
